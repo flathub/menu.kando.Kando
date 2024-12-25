@@ -20,16 +20,16 @@ modules:
         sha256: 4448419ab790e2623e590439b8b4202d14030e5ee1a4cd2add4286dff329e670
       - type: file
         dest-filename: menu.kando.Kando.svg
-        url: https://raw.githubusercontent.com/kando-menu/kando/08f8777e19206f00ab203b844c056a0f7a296f98/tools/appstream/menu.kando.Kando.svg
-        sha256: a31e870e267c78e80802648616ea18c0cdfe6a1297c91b6a7998d762326a0bb1
+        url: https://raw.githubusercontent.com/kando-menu/kando/e0c2bb032ac96a0fd077ae1683c5687b818dfdfa/appstream/menu.kando.Kando.svg
+        sha256: 2f268889a17ea2e436bbeef681b0003a8c21bbef4f41790685c82aed9e3c5daf
       - type: file
         dest-filename: menu.kando.Kando.desktop
-        url: https://raw.githubusercontent.com/kando-menu/kando/08f8777e19206f00ab203b844c056a0f7a296f98/tools/appstream/menu.kando.Kando.desktop
-        sha256: 5af8e9792006b2ada2eacb4b3ab328b333a64c83e5434a0c70ea8f8b3b9b8829
+        url: https://raw.githubusercontent.com/kando-menu/kando/e0c2bb032ac96a0fd077ae1683c5687b818dfdfa/appstream/menu.kando.Kando.desktop
+        sha256: 60e05d2c13a202ae58273cee6c4e20534dd03b9a2542a91520b5c48603ec6ecc
       - type: file
         dest-filename: menu.kando.Kando.metainfo.xml
-        url: https://raw.githubusercontent.com/kando-menu/kando/9cba1e85986e577e7a90a7765a638ecc0703276f/appstream/menu.kando.Kando.metainfo.xml
-        sha256: 640571f8ff82cfa0b45a58a4bdb856362e43d96f9fd2c7153510222ab467c0bc
+        url: https://raw.githubusercontent.com/kando-menu/kando/fd31776130cfa77275c31acf3728adc0e8957bdf/appstream/menu.kando.Kando.metainfo.xml
+        sha256: 60b1d43d61b8cd5ef99cadb0bb53da05b760a91f64c78d76d7d4fa04128ab7fc
     build-commands:
       - chmod +x kando.AppImage
       - ./kando.AppImage --appimage-extract
