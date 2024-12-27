@@ -16,8 +16,8 @@ modules:
     sources:
       - type: file
         dest-filename: kando.AppImage
-        url: https://github.com/kando-menu/kando/releases/download/v1.6.0/Kando-1.6.0-x86_64.AppImage
-        sha256: 4448419ab790e2623e590439b8b4202d14030e5ee1a4cd2add4286dff329e670
+        url: https://github.com/kando-menu/kando/releases/download/v1.7.0/Kando-1.7.0-x86_64.AppImage
+        sha256: 21a34d1cbc8283b41789fd165b904c5abd2e57b60aed0a5c4fb2edf35ff3c6d2
       - type: file
         dest-filename: menu.kando.Kando.svg
         url: https://raw.githubusercontent.com/kando-menu/kando/e0c2bb032ac96a0fd077ae1683c5687b818dfdfa/appstream/menu.kando.Kando.svg
