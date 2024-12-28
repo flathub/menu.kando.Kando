@@ -28,8 +28,8 @@ modules:
         sha256: 60e05d2c13a202ae58273cee6c4e20534dd03b9a2542a91520b5c48603ec6ecc
       - type: file
         dest-filename: menu.kando.Kando.metainfo.xml
-        url: https://raw.githubusercontent.com/kando-menu/kando/fd31776130cfa77275c31acf3728adc0e8957bdf/appstream/menu.kando.Kando.metainfo.xml
-        sha256: 60b1d43d61b8cd5ef99cadb0bb53da05b760a91f64c78d76d7d4fa04128ab7fc
+        url: https://raw.githubusercontent.com/kando-menu/kando/00adf7e22ac2ea63b0ce4fd1d21154e302f760b8/appstream/menu.kando.Kando.metainfo.xml
+        sha256: c0100eb414fc0c256e582e0636a134d86095a2fdb1a1a3e6f76aba90985a5b30
     build-commands:
       - chmod +x kando.AppImage
       - ./kando.AppImage --appimage-extract
