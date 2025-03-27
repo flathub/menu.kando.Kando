@@ -16,20 +16,20 @@ modules:
     sources:
       - type: file
         dest-filename: kando.AppImage
-        url: https://github.com/kando-menu/kando/releases/download/v1.7.0/Kando-1.7.0-x86_64.AppImage
-        sha256: 21a34d1cbc8283b41789fd165b904c5abd2e57b60aed0a5c4fb2edf35ff3c6d2
+        url: https://github.com/kando-menu/kando/releases/download/v1.8.0/Kando-1.8.0-x86_64.AppImage
+        sha256: 186cbb1dccf63cc602e21164fb274e77b35d837ad563718fd2b3042496954585
       - type: file
         dest-filename: menu.kando.Kando.svg
-        url: https://raw.githubusercontent.com/kando-menu/kando/e0c2bb032ac96a0fd077ae1683c5687b818dfdfa/appstream/menu.kando.Kando.svg
-        sha256: 2f268889a17ea2e436bbeef681b0003a8c21bbef4f41790685c82aed9e3c5daf
+        url: https://raw.githubusercontent.com/kando-menu/kando/230f3edc9b6e1a407ca6a9e75daf57fe47ba614c/assets/icons/icon.svg
+        sha256: e401f0687105b51fc915942f7c46fb92a7e590e63205a3cab1114e51eb5642b7
       - type: file
         dest-filename: menu.kando.Kando.desktop
-        url: https://raw.githubusercontent.com/kando-menu/kando/e0c2bb032ac96a0fd077ae1683c5687b818dfdfa/appstream/menu.kando.Kando.desktop
+        url: https://raw.githubusercontent.com/kando-menu/kando/230f3edc9b6e1a407ca6a9e75daf57fe47ba614c/appstream/menu.kando.Kando.desktop
         sha256: 60e05d2c13a202ae58273cee6c4e20534dd03b9a2542a91520b5c48603ec6ecc
       - type: file
         dest-filename: menu.kando.Kando.metainfo.xml
-        url: https://raw.githubusercontent.com/kando-menu/kando/00adf7e22ac2ea63b0ce4fd1d21154e302f760b8/appstream/menu.kando.Kando.metainfo.xml
-        sha256: c0100eb414fc0c256e582e0636a134d86095a2fdb1a1a3e6f76aba90985a5b30
+        url: https://raw.githubusercontent.com/kando-menu/kando/230f3edc9b6e1a407ca6a9e75daf57fe47ba614c/appstream/menu.kando.Kando.metainfo.xml
+        sha256: 8b4876a8a64b6d5c39183b3d18106cdf916dd3578df5f36dfef6c125711563ba
     build-commands:
       - chmod +x kando.AppImage
       - ./kando.AppImage --appimage-extract
