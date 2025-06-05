@@ -14,10 +14,24 @@ To install the Flatpak package from Flathub, just run the following command:
 flatpak install flathub menu.kando.Kando
 ```
 
-## Building the Flatpak Package
+## Building the Flatpak Package Locally
 
-If you want to build and install the Flatpak package yourself, you can do so by running the following command:
+If you want to build and install the same Flatpak package as is currently on Flathub locally (aka the latest stable release of Kando), you can do so by running the following commands:
 
 ```bash
+git clone https://github.com/flathub/menu.kando.Kando.git
+cd menu.kando.Kando
 flatpak-builder --force-clean --sandbox --user --install-deps-from=flathub --repo=repo --install builddir menu.kando.Kando.yml
+```
+
+## Creating a Development Package
+
+If you are a developer and want to test the latest changes in Kando in a Flatpak environment, you can use the `tools/make-flatpak-bundle.sh` script in Kando's repository to create a development bundle.
+
+```bash
+cd kando
+npm run package
+./tools/make-app-image.sh
+./tools/make-flatpak-bundle.sh
+flatpak install out/make/flatpak/*.flatpak
 ```
