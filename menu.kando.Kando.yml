@@ -20,6 +20,14 @@ modules:
         dest-filename: kando.AppImage
         url: https://github.com/kando-menu/kando/releases/download/v1.8.0/Kando-1.8.0-x86_64.AppImage
         sha256: 186cbb1dccf63cc602e21164fb274e77b35d837ad563718fd2b3042496954585
+        only-arches:
+          - x86_64
+      - type: file
+        dest-filename: kando.AppImage
+        url: https://github.com/kando-menu/kando/releases/download/v1.8.0/Kando-1.8.0-aarch64.AppImage
+        sha256: a047e70a9e4c38943c1b8fa045a3c9e5a7271ee73557b0ac3102013815d2f66e
+        only-arches:
+          - aarch64
       - type: file
         dest-filename: menu.kando.Kando.svg
         url: https://raw.githubusercontent.com/kando-menu/kando/230f3edc9b6e1a407ca6a9e75daf57fe47ba614c/assets/icons/icon.svg
