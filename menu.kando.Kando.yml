@@ -18,14 +18,14 @@ modules:
     sources:
       - type: file
         dest-filename: kando.AppImage
-        url: https://github.com/kando-menu/kando/releases/download/v2.0.0/Kando-2.0.0-x86_64.AppImage
-        sha256: 99eeb0f9a66101e3fdbd8cfd64e0ca62086db3a5e5279ad52f9714bfc94d8838
+        url: https://github.com/kando-menu/kando/releases/download/v2.1.0/Kando-2.1.0-x86_64.AppImage
+        sha256: 12c1b2333c6f7a83cdc04fcf83503cb3fd7b4972b6088c8a68a63fbeb0cbd5b9
         only-arches:
           - x86_64
       - type: file
         dest-filename: kando.AppImage
-        url: https://github.com/kando-menu/kando/releases/download/v2.0.0/Kando-2.0.0-aarch64.AppImage
-        sha256: 469ebce990f190eef088f76140b4adc5ba66ed757dabf45f86300aae5f0322b6
+        url: https://github.com/kando-menu/kando/releases/download/v2.1.0/Kando-2.1.0-aarch64.AppImage
+        sha256: feb2590fed27f269d80349a46599020d716d682eda148746c80a37af2c2eb6d0
         only-arches:
           - aarch64
       - type: file
@@ -38,8 +38,8 @@ modules:
         sha256: 60e05d2c13a202ae58273cee6c4e20534dd03b9a2542a91520b5c48603ec6ecc
       - type: file
         dest-filename: menu.kando.Kando.metainfo.xml
-        url: https://raw.githubusercontent.com/kando-menu/kando/1c0ed5f2b6a7ea2590eb3ea2b12846a619579511/appstream/menu.kando.Kando.metainfo.xml
-        sha256: 05afe6358bef173710fdbd18be89f6b5388f55fefe0ee741bcdd35d75ed6f7ff
+        url: https://raw.githubusercontent.com/kando-menu/kando/6381712f414ae9d0dfcf05ac57d680e9eb8164c8/appstream/menu.kando.Kando.metainfo.xml
+        sha256: 60f9c9b41f3ea6aa97df794c427e75575e62d50fc6623bf26e15433530b32863
     build-commands:
       - chmod +x kando.AppImage
       - ./kando.AppImage --appimage-extract
