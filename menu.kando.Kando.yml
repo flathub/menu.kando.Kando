@@ -8,6 +8,8 @@ finish-args:
   - --device=dri
   - --socket=x11
   - --socket=pulseaudio
+  - --filesystem=host-os:ro
+  - --filesystem=home:ro
   - --talk-name=org.freedesktop.Flatpak
   - --talk-name=org.gnome.Shell
   - --talk-name=org.kde.KWin
