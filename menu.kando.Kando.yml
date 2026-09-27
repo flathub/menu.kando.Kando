@@ -9,6 +9,7 @@ finish-args:
   - --socket=wayland
   - --socket=fallback-x11
   - --socket=pulseaudio
+  - --socket=session-bus
   - --filesystem=host-os:ro
   - --talk-name=org.freedesktop.Flatpak
   - --talk-name=org.gnome.Shell
