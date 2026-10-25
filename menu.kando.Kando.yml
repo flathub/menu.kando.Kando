@@ -14,6 +14,7 @@ finish-args:
   - --talk-name=org.gnome.Shell
   - --talk-name=org.kde.KWin
   - --talk-name=org.kde.StatusNotifierWatcher
+  - --talk-name=menu.kando.KWinIntegration
 modules:
   - name: kando
     buildsystem: simple
